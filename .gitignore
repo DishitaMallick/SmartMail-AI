@@ -1,0 +1,36 @@
+# Secrets — never commit credentials
+.env
+.env.*
+!.env.example
+backend/.env
+.env.local
+.env.*.local
+
+# Local tooling
+.freebuff/
+
+# Python
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local databases
+backend/data/*.db
+backend/data/*.db-journal
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+# Editors & OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
